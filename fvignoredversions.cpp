@@ -28,7 +28,7 @@ bool FVIgnoredVersions::VersionIsIgnored(QString version)
     
     QSettings settings(QSettings::NativeFormat,
 					   QSettings::UserScope,
-					   QCoreApplication::organizationDomain(),
+					   QCoreApplication::organizationName(),
 					   QCoreApplication::applicationName());
     
 	//QSettings settings;
